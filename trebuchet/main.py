@@ -1,8 +1,10 @@
+INPUT_FILE = 'input.txt'
+
 nums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
 pair_list = []
 
-file = open('input.txt', 'r')
+file = open(INPUT_FILE, 'r')
 
 lines = [line.strip() for line in file.readlines()]
 
